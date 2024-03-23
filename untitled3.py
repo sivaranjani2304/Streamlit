@@ -11,9 +11,9 @@ pip install streamlit
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile our_application.py
-# import streamlit as st
-# st.write("Hasini")
+import streamlit as st
+st.write("Hasini")
 
-!wget -q -O - ipv4.icanhazip.com
+#!wget -q -O - ipv4.icanhazip.com
 
-! streamlit run our_application.py & npx localtunnel --port 8501
+#! streamlit run our_application.py & npx localtunnel --port 8501
